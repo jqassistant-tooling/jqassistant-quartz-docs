@@ -1,2 +1,2 @@
-# jqassistant-quartz-docs-template
-Quartz Template for jQAssistant Repository Documentation Pages
+# JQassistant Quartz Documentation Template
+[Quartz](https://github.com/jackyzha0/quartz) template for jQAssistant repository documentation pages
