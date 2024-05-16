@@ -1,6 +1,10 @@
+import * as fs from 'fs';
+
 import {QuartzConfig} from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
-import {jqaConfig} from "./jqa.quartz.config";
+
+
+const jqaConfig = JSON.parse(fs.readFileSync("jqa.quartz.config.json", 'utf-8'));
 
 /**
  * Quartz 4.0 Configuration
@@ -9,7 +13,7 @@ import {jqaConfig} from "./jqa.quartz.config";
  */
 const config: QuartzConfig = {
     configuration: {
-        pageTitle: "jQA pub Plugin",
+        pageTitle: jqaConfig.pageTitle ?? "Home",
         enableSPA: true,
         enablePopovers: true,
         analytics: null,

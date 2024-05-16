@@ -8,3 +8,7 @@ private/
 .replit
 replit.nix
 .idea/
+
+# Local Development
+jqa.quartz.config.json
+content
