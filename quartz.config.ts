@@ -2,9 +2,8 @@ import * as fs from 'fs';
 
 import {QuartzConfig} from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import { jqaConfig } from "./jqa.quartz.config"
 
-
-const jqaConfig = JSON.parse(fs.readFileSync("jqa.quartz.config.json", 'utf-8'));
 
 /**
  * Quartz 4.0 Configuration
