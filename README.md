@@ -5,5 +5,5 @@ This repository is intended to be used by GH Actions for publishing jQA document
 
 ## Development
 
-1. place `jqa.quartz.config.json` and `content` directory in project root
+1. place your `jqa.quartz.config.json` and `content` directory in project root
 2. run `npx quartz build --serve` (needs to be re-run when modifying the `jqa.quartz.config.json`)
